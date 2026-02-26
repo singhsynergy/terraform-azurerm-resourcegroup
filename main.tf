@@ -3,7 +3,7 @@ provider "azurerm" {
 }
 
 module "resource-group" {
-  source = "./modules/rg"
+  source = "./modules/resource-group"
 
   resource_group_name = "singhsynergy"
   location = "East US"
